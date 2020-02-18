@@ -4106,8 +4106,6 @@ Source: www.kingbright.com</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="U$1" library="MAX32664" deviceset="MAX32664_TQFN" device=""/>
 <part name="U$4" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$6" library="microbuilder" deviceset="GND" device=""/>
@@ -4160,10 +4158,11 @@ Source: www.kingbright.com</description>
 <part name="U$11" library="microbuilder" deviceset="GND" device=""/>
 <part name="J4" library="EMPCB.SMAFSTJ.B.HT" deviceset="EMPCB.SMAFSTJ.B.HT" device=""/>
 <part name="U$17" library="microbuilder" deviceset="GND" device=""/>
+<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
-<description>Microcontroller / Sensors</description>
+<description>Microcontroller</description>
 <plain>
 <text x="55.88" y="93.98" size="2.54" layer="91">Heart-Rate Algorithm Chip</text>
 <text x="215.9" y="241.3" size="1.778" layer="91">PROGRAMMING HEADER</text>
@@ -4684,20 +4683,6 @@ Source: www.kingbright.com</description>
 <label x="287.02" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="OSC_OUT" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PH1-OSC_OUT"/>
-<wire x1="76.2" y1="177.8" x2="60.96" y2="177.8" width="0.1524" layer="91"/>
-<label x="60.96" y="177.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="OSC_IN" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PH0-OSC_IN"/>
-<wire x1="76.2" y1="180.34" x2="60.96" y2="180.34" width="0.1524" layer="91"/>
-<label x="60.96" y="180.34" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB12"/>
@@ -4761,6 +4746,34 @@ Source: www.kingbright.com</description>
 <label x="330.2" y="220.98" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="SDA_HR" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PB7"/>
+<wire x1="121.92" y1="203.2" x2="129.54" y2="203.2" width="0.1524" layer="91"/>
+<label x="121.92" y="203.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCL_HR" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PB6"/>
+<wire x1="121.92" y1="200.66" x2="129.54" y2="200.66" width="0.1524" layer="91"/>
+<label x="121.92" y="200.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCL_EEPROM" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PB10"/>
+<wire x1="121.92" y1="210.82" x2="129.54" y2="210.82" width="0.1524" layer="91"/>
+<label x="121.92" y="210.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDA_EEPROM" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PB11"/>
+<wire x1="121.92" y1="213.36" x2="129.54" y2="213.36" width="0.1524" layer="91"/>
+<label x="121.92" y="213.36" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -4769,18 +4782,6 @@ Source: www.kingbright.com</description>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-<sheet>
-<description>Connectors</description>
-<plain>
-</plain>
-<instances>
-<instance part="FRAME3" gate="G$1" x="0" y="0"/>
 </instances>
 <busses>
 </busses>
