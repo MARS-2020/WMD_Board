@@ -4245,14 +4245,14 @@ Source: www.kingbright.com</description>
 <busses>
 </busses>
 <nets>
-<net name="HR_SDA" class="0">
+<net name="SDA_TO_HR_SENSOR" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SENSOR_SDA"/>
 <wire x1="99.06" y1="83.82" x2="127" y2="83.82" width="0.1524" layer="91"/>
 <label x="124.46" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="HR_SCL" class="0">
+<net name="SCL_TO_HR_SENSOR" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SENSOR_SCL"/>
 <wire x1="99.06" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
@@ -4394,7 +4394,7 @@ Source: www.kingbright.com</description>
 <label x="121.92" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="1.8SDA_MICRO" class="0">
+<net name="SDA_HR_1.8V" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SLAVE_SDA"/>
 <wire x1="99.06" y1="33.02" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
@@ -4407,7 +4407,7 @@ Source: www.kingbright.com</description>
 <wire x1="157.48" y1="38.1" x2="157.48" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="1.8SCL_MICRO" class="0">
+<net name="SCL_HR_1.8V" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SLAVE_SCL"/>
 <wire x1="99.06" y1="27.94" x2="154.94" y2="27.94" width="0.1524" layer="91"/>

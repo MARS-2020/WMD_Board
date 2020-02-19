@@ -4163,6 +4163,18 @@ Source: www.kingbright.com</description>
 </parts>
 <sheets>
 <sheet>
+<description>Power System</description>
+<plain>
+</plain>
+<instances>
+<instance part="FRAME2" gate="G$1" x="0" y="0"/>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
 <description>Microcontroller</description>
 <plain>
 <text x="55.88" y="93.98" size="2.54" layer="91">Heart-Rate Algorithm Chip</text>
@@ -4655,18 +4667,6 @@ Source: www.kingbright.com</description>
 <label x="121.92" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
-</nets>
-</sheet>
-<sheet>
-<description>Power System</description>
-<plain>
-</plain>
-<instances>
-<instance part="FRAME2" gate="G$1" x="0" y="0"/>
-</instances>
-<busses>
-</busses>
-<nets>
 </nets>
 </sheet>
 <sheet>

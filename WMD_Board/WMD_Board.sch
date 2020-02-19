@@ -4863,7 +4863,7 @@ Source: www.kingbright.com</description>
 <description>Sensors</description>
 <plain>
 <text x="48.26" y="236.22" size="1.778" layer="91">LoRa Module</text>
-<text x="50.8" y="91.44" size="2.54" layer="91">Heart-Rate Algorithm Chip</text>
+<text x="50.8" y="88.9" size="2.54" layer="91">Heart-Rate Algorithm Chip</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
