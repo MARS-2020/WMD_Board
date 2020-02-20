@@ -442,12 +442,14 @@ UsedLibrary="C:/Users/Jacob/Documents/GitHub/ROV_X12/X12-Parts-Library/Dist_to_C
 UsedLibrary="C:/Users/Jacob/Documents/GitHub/ROV_X12/X12-Parts-Library/ESC_to_Backplane_Connectors.lbr"
 UsedLibrary="C:/Users/Jacob/Documents/GitHub/ROV_X12/X12-Parts-Library/ET60S-02-24-02-X-VP-GP.lbr"
 UsedLibrary="C:/Users/Jacob/Documents/GitHub/ROV_X12/X12-Parts-Library/Q48SC12050NRDH.lbr"
+UsedLibrary="C:/Users/Jacob/Documents/GitHub/MARS/Boards/Parts_Library/M24512_EEPROM.lbr"
 UsedLibrary="C:/Users/Jacob/Documents/GitHub/MARS/Boards/Parts_Library/TST_Connnector.lbr"
+UsedLibrary="C:/Users/Jacob/Documents/GitHub/MARS/Boards/Parts_Library/TPS72218DBVR_LDO.lbr"
 
 [Win_1]
 Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="1920 1080"
+Screen="4480 1080"
 Window="Win_1"
