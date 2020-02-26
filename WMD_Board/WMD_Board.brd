@@ -1102,15 +1102,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C9" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF" x="-54.61" y="54.61">
 <attribute name="PROD_ID" value="CAP-00810" x="-54.61" y="54.61" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J1" library="EMPCB.SMAFSTJ.B.HT" package="TAOGLAS_EMPCB.SMAFSTJ.B.HT" value="EMPCB.SMAFSTJ.B.HT" x="61.341" y="42.291" rot="R180">
-<attribute name="DESCRIPTION" value=" SMA Connector Jack, Female Socket 50Ohm Board Edge, End Launch Solder " x="61.341" y="42.291" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="931-1175-ND" x="61.341" y="42.291" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/taoglas-limited/EMPCB.SMAFSTJ.B.HT/931-1175-ND/3522337?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="61.341" y="42.291" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Taoglas Limited" x="61.341" y="42.291" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="EMPCB.SMAFSTJ.B.HT" x="61.341" y="42.291" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGE" value="None" x="61.341" y="42.291" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J1" library="EMPCB.SMAFSTJ.B.HT" package="TAOGLAS_EMPCB.SMAFSTJ.B.HT" value="EMPCB.SMAFSTJ.B.HT" x="49.403" y="42.545" rot="MR180">
+<attribute name="DESCRIPTION" value=" SMA Connector Jack, Female Socket 50Ohm Board Edge, End Launch Solder " x="49.403" y="42.545" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="931-1175-ND" x="49.403" y="42.545" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/taoglas-limited/EMPCB.SMAFSTJ.B.HT/931-1175-ND/3522337?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="49.403" y="42.545" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MF" value="Taoglas Limited" x="49.403" y="42.545" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MP" value="EMPCB.SMAFSTJ.B.HT" x="49.403" y="42.545" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PACKAGE" value="None" x="49.403" y="42.545" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="JP1" library="microbuilder" package="1X01_ROUND" value="" x="61.341" y="38.862"/>
+<element name="JP1" library="microbuilder" package="1X01_ROUND" value="" x="49.276" y="39.116"/>
 <element name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="-31.75" y="48.26">
 <attribute name="POPULARITY" value="68" x="-31.75" y="48.26" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="L" x="-31.75" y="48.26" size="1.778" layer="27" display="off"/>
@@ -1181,7 +1181,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_PART_NUMBER" value="BSS138" x="46.863" y="7.112" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="Fairchild Semiconductor" x="46.863" y="7.112" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U3" library="microbuilder" package="RFMHCW_SMT" value="RFM69HCW" x="54.356" y="28.448" rot="R90"/>
+<element name="U3" library="microbuilder" package="RFMHCW_SMT" value="RFM69HCW" x="55.499" y="28.829" rot="MR90"/>
 <element name="U4" library="BSS138" package="SOT-23-3L" value="BSS138" x="46.863" y="11.684" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="BSS138" x="46.863" y="11.684" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="Fairchild Semiconductor" x="46.863" y="11.684" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1269,17 +1269,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C20" pad="2"/>
 <contactref element="C21" pad="2"/>
 <contactref element="U6" pad="2"/>
-<wire x1="64.111" y1="42.291" x2="64.111" y2="42.291" width="0" layer="19" extent="1-16"/>
-<wire x1="58.571" y1="42.291" x2="64.111" y2="42.291" width="0" layer="19" extent="1-1"/>
-<wire x1="58.571" y1="42.291" x2="58.571" y2="42.291" width="0" layer="19" extent="1-16"/>
-<wire x1="59.356" y1="36.548" x2="58.571" y2="42.291" width="0" layer="19" extent="1-1"/>
-<wire x1="61.356" y1="20.348" x2="59.356" y2="36.548" width="0" layer="19" extent="1-1"/>
-<wire x1="58.18" y1="14.173" x2="61.356" y2="20.348" width="0" layer="19" extent="1-1"/>
+<wire x1="52.173" y1="42.545" x2="46.633" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="50.499" y1="36.929" x2="52.173" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="48.499" y1="20.729" x2="50.499" y2="36.929" width="0" layer="19" extent="1-1"/>
+<wire x1="58.18" y1="14.173" x2="48.499" y2="20.729" width="0" layer="19" extent="1-1"/>
 <wire x1="58.03" y1="12.723" x2="58.18" y2="14.173" width="0" layer="19" extent="1-1"/>
 <wire x1="56.83" y1="12.623" x2="58.03" y2="12.723" width="0" layer="19" extent="1-1"/>
 <wire x1="56.58" y1="12.973" x2="56.83" y2="12.623" width="0" layer="19" extent="1-1"/>
-<wire x1="47.356" y1="20.348" x2="56.58" y2="12.973" width="0" layer="19" extent="1-1"/>
-<wire x1="28.158" y1="25.792" x2="47.356" y2="20.348" width="0" layer="19" extent="1-1"/>
+<wire x1="62.499" y1="20.729" x2="56.58" y2="12.973" width="0" layer="19" extent="1-1"/>
+<wire x1="28.158" y1="25.792" x2="62.499" y2="20.729" width="0" layer="19" extent="1-1"/>
 <wire x1="30.088" y1="32.222" x2="28.158" y2="25.792" width="0" layer="19" extent="1-1"/>
 <wire x1="25.158" y1="34.152" x2="30.088" y2="32.222" width="0" layer="19" extent="1-1"/>
 <wire x1="21.728" y1="27.722" x2="28.158" y2="25.792" width="0" layer="19" extent="1-1"/>
@@ -1342,7 +1340,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U6" pad="3"/>
 <contactref element="U6" pad="1"/>
 <contactref element="C21" pad="1"/>
-<wire x1="30.088" y1="32.722" x2="53.356" y2="36.548" width="0" layer="19" extent="1-1"/>
+<wire x1="30.088" y1="32.722" x2="56.499" y2="36.929" width="0" layer="19" extent="1-1"/>
 <wire x1="24.658" y1="34.152" x2="30.088" y2="32.722" width="0" layer="19" extent="1-1"/>
 <wire x1="28.658" y1="25.792" x2="30.088" y2="32.722" width="0" layer="19" extent="1-1"/>
 <wire x1="21.728" y1="27.222" x2="28.658" y2="25.792" width="0" layer="19" extent="1-1"/>
@@ -1536,8 +1534,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U3" pad="1P"/>
 <contactref element="JP1" pad="1"/>
 <contactref element="J1" pad="1"/>
-<wire x1="61.341" y1="38.862" x2="61.341" y2="42.291" width="0" layer="19" extent="1-1"/>
-<wire x1="61.356" y1="36.548" x2="61.341" y2="38.862" width="0" layer="19" extent="1-1"/>
+<wire x1="49.276" y1="39.116" x2="49.403" y2="42.545" width="0" layer="19" extent="1-1"/>
+<wire x1="48.499" y1="36.929" x2="49.276" y2="39.116" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIO3">
 <contactref element="U3" pad="3P"/>
@@ -1599,22 +1597,22 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="LORA_MISO">
 <contactref element="U3" pad="10P"/>
 <contactref element="U1" pad="16"/>
-<wire x1="21.728" y1="31.222" x2="49.356" y2="20.348" width="0" layer="19" extent="1-1"/>
+<wire x1="21.728" y1="31.222" x2="60.499" y2="20.729" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LORA_MOSI">
 <contactref element="U3" pad="11P"/>
 <contactref element="U1" pad="17"/>
-<wire x1="21.728" y1="30.722" x2="51.356" y2="20.348" width="0" layer="19" extent="1-1"/>
+<wire x1="21.728" y1="30.722" x2="58.499" y2="20.729" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LORA_SCK">
 <contactref element="U3" pad="12P"/>
 <contactref element="U1" pad="15"/>
-<wire x1="21.728" y1="31.722" x2="53.356" y2="20.348" width="0" layer="19" extent="1-1"/>
+<wire x1="21.728" y1="31.722" x2="56.499" y2="20.729" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LORA_CS">
 <contactref element="U3" pad="13P"/>
 <contactref element="U1" pad="14"/>
-<wire x1="21.728" y1="32.222" x2="55.356" y2="20.348" width="0" layer="19" extent="1-1"/>
+<wire x1="21.728" y1="32.222" x2="54.499" y2="20.729" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OLED_MOSI">
 <contactref element="U1" pad="28"/>
@@ -1639,12 +1637,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="LORA_RESET">
 <contactref element="U1" pad="18"/>
 <contactref element="U3" pad="14P"/>
-<wire x1="21.728" y1="30.222" x2="57.356" y2="20.348" width="0" layer="19" extent="1-1"/>
+<wire x1="21.728" y1="30.222" x2="52.499" y2="20.729" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LORA_DIO5">
 <contactref element="U3" pad="15P"/>
 <contactref element="U1" pad="19"/>
-<wire x1="21.728" y1="29.722" x2="59.356" y2="20.348" width="0" layer="19" extent="1-1"/>
+<wire x1="21.728" y1="29.722" x2="50.499" y2="20.729" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U1" pad="39"/>

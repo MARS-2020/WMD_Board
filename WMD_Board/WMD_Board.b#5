@@ -1195,6 +1195,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U$20" pad="10"/>
 <contactref element="U5" pad="4"/>
 <contactref element="C19" pad="2"/>
+<contactref element="U5" pad="1"/>
+<contactref element="U5" pad="2"/>
+<contactref element="U5" pad="3"/>
 <wire x1="64.111" y1="42.291" x2="64.111" y2="42.291" width="0" layer="19" extent="1-16"/>
 <wire x1="58.571" y1="42.291" x2="64.111" y2="42.291" width="0" layer="19" extent="1-1"/>
 <wire x1="58.571" y1="42.291" x2="58.571" y2="42.291" width="0" layer="19" extent="1-16"/>
@@ -1228,7 +1231,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="-54.19" y1="58.42" x2="-53.76" y2="54.61" width="0" layer="19" extent="1-1"/>
 <wire x1="-31.75" y1="49.31" x2="-33.44" y2="58.42" width="0" layer="19" extent="1-1"/>
 <wire x1="-54.87" y1="38.1" x2="-53.76" y2="54.61" width="0" layer="19" extent="1-1"/>
-<wire x1="-58.228" y1="-10.795" x2="-54.87" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.228" y1="-6.985" x2="-54.87" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.228" y1="-8.255" x2="-58.228" y2="-6.985" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.228" y1="-9.525" x2="-58.228" y2="-8.255" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.228" y1="-10.795" x2="-58.228" y2="-9.525" width="0" layer="19" extent="1-1"/>
 <wire x1="-57.57" y1="-14.986" x2="-58.228" y2="-10.795" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
@@ -1553,6 +1559,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U1" pad="29"/>
 <contactref element="U$20" pad="12"/>
 <wire x1="17.907" y1="3.556" x2="25.158" y2="25.792" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="WC_EEPROM">
+<contactref element="U5" pad="7"/>
+<contactref element="U1" pad="46"/>
+<wire x1="30.088" y1="31.722" x2="-53.278" y2="-8.255" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="U5" pad="5"/>
+</signal>
+<signal name="N$3">
+<contactref element="U5" pad="6"/>
 </signal>
 </signals>
 </board>

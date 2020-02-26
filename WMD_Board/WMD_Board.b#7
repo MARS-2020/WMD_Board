@@ -1099,22 +1099,22 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MP" value="STM32L053C8T6" x="25.908" y="29.972" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="LQFP-48 STMicroelectronics" x="25.908" y="29.972" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U2" library="BSS138" package="SOT-23-3L" value="BSS138" x="-54.61" y="48.26">
-<attribute name="MANUFACTURER_PART_NUMBER" value="BSS138" x="-54.61" y="48.26" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Fairchild Semiconductor" x="-54.61" y="48.26" size="1.778" layer="27" display="off"/>
+<element name="U2" library="BSS138" package="SOT-23-3L" value="BSS138" x="46.863" y="7.112" rot="R90">
+<attribute name="MANUFACTURER_PART_NUMBER" value="BSS138" x="46.863" y="7.112" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Fairchild Semiconductor" x="46.863" y="7.112" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U3" library="microbuilder" package="RFMHCW_SMT" value="RFM69HCW" x="54.356" y="28.448" rot="R90"/>
-<element name="U4" library="BSS138" package="SOT-23-3L" value="BSS138" x="-15.24" y="54.61">
-<attribute name="MANUFACTURER_PART_NUMBER" value="BSS138" x="-15.24" y="54.61" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Fairchild Semiconductor" x="-15.24" y="54.61" size="1.778" layer="27" display="off"/>
+<element name="U4" library="BSS138" package="SOT-23-3L" value="BSS138" x="46.863" y="11.684" rot="R90">
+<attribute name="MANUFACTURER_PART_NUMBER" value="BSS138" x="46.863" y="11.684" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Fairchild Semiconductor" x="46.863" y="11.684" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="Y2" library="ABS06-107-32.768KHZ-T" package="XTAL_ABS06-107-32.768KHZ-T" value="ABS06-107-32.768KHZ-T" x="-49.53" y="49.53">
-<attribute name="DESCRIPTION" value=" 32.768kHz ±20ppm Crystal 4pF 60 kOhms 2-SMD, No Lead " x="-49.53" y="49.53" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="535-12373-1-ND" x="-49.53" y="49.53" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/abracon-llc/ABS06-107-32.768KHZ-T/535-12373-1-ND/4291563?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-49.53" y="49.53" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Abracon" x="-49.53" y="49.53" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="ABS06-107-32.768KHZ-T" x="-49.53" y="49.53" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="SMD-2 Abracon" x="-49.53" y="49.53" size="1.778" layer="27" display="off"/>
+<element name="Y2" library="ABS06-107-32.768KHZ-T" package="XTAL_ABS06-107-32.768KHZ-T" value="ABS06-107-32.768KHZ-T" x="57.531" y="10.033">
+<attribute name="DESCRIPTION" value=" 32.768kHz ±20ppm Crystal 4pF 60 kOhms 2-SMD, No Lead " x="57.531" y="10.033" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="535-12373-1-ND" x="57.531" y="10.033" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/abracon-llc/ABS06-107-32.768KHZ-T/535-12373-1-ND/4291563?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="57.531" y="10.033" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Abracon" x="57.531" y="10.033" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="ABS06-107-32.768KHZ-T" x="57.531" y="10.033" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="SMD-2 Abracon" x="57.531" y="10.033" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$20" library="TST_Connnector" package="TST_DR_6" value="TS_DR_6" x="0.127" y="0.127"/>
 </elements>
@@ -1268,14 +1268,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U2" pad="3"/>
 <contactref element="R5" pad="2"/>
 <wire x1="-14.39" y1="62.23" x2="30.088" y2="30.222" width="0" layer="19" extent="1-1"/>
-<wire x1="-54.61" y1="49.5046" x2="-14.39" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="45.6184" y1="7.112" x2="-14.39" y2="62.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL_HR">
 <contactref element="U1" pad="42"/>
 <contactref element="U4" pad="3"/>
 <contactref element="R9" pad="2"/>
-<wire x1="-15.24" y1="55.8546" x2="30.088" y2="29.722" width="0" layer="19" extent="1-1"/>
-<wire x1="-29.63" y1="62.23" x2="-15.24" y2="55.8546" width="0" layer="19" extent="1-1"/>
+<wire x1="45.6184" y1="11.684" x2="30.088" y2="29.722" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.63" y1="62.23" x2="45.6184" y2="11.684" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL_EEPROM">
 <contactref element="U1" pad="21"/>
@@ -1287,8 +1287,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U2" pad="2"/>
 <contactref element="R4" pad="1"/>
 <contactref element="U$10" pad="SLAVE_SDA"/>
-<wire x1="-53.66" y1="47.0154" x2="57.63" y2="15.623" width="0" layer="19" extent="1-1"/>
-<wire x1="-58" y1="58.42" x2="-53.66" y2="47.0154" width="0" layer="19" extent="1-1"/>
+<wire x1="48.1076" y1="8.062" x2="57.63" y2="15.623" width="0" layer="19" extent="1-1"/>
+<wire x1="-58" y1="58.42" x2="48.1076" y2="8.062" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="1.8V">
 <contactref element="R4" pad="2"/>
@@ -1300,19 +1300,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U$10" pad="VDD@2"/>
 <contactref element="C18" pad="1"/>
 <wire x1="58.03" y1="15.623" x2="58.43" y2="12.723" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.19" y1="53.3654" x2="58.03" y2="15.623" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.09" y1="58.42" x2="-16.19" y2="53.3654" width="0" layer="19" extent="1-1"/>
+<wire x1="48.1076" y1="10.734" x2="58.03" y2="15.623" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.09" y1="58.42" x2="48.1076" y2="10.734" width="0" layer="19" extent="1-1"/>
 <wire x1="-18.2" y1="62.23" x2="-16.09" y2="58.42" width="0" layer="19" extent="1-1"/>
 <wire x1="-42.76" y1="58.42" x2="-18.2" y2="62.23" width="0" layer="19" extent="1-1"/>
 <wire x1="-56.3" y1="58.42" x2="-42.76" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-55.56" y1="47.0154" x2="-56.3" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="48.1076" y1="6.162" x2="-56.3" y2="58.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL_HR_1.8V">
 <contactref element="U4" pad="2"/>
 <contactref element="R6" pad="1"/>
 <contactref element="U$10" pad="SLAVE_SCL"/>
-<wire x1="-14.29" y1="53.3654" x2="57.23" y2="15.623" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.9" y1="62.23" x2="-14.29" y2="53.3654" width="0" layer="19" extent="1-1"/>
+<wire x1="48.1076" y1="12.634" x2="57.23" y2="15.623" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.9" y1="62.23" x2="48.1076" y2="12.634" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BTN1_OUT">
 <contactref element="R7" pad="1"/>
@@ -1439,12 +1439,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$10">
 <contactref element="Y2" pad="2"/>
 <contactref element="U$10" pad="32KIN"/>
-<wire x1="-48.8" y1="49.53" x2="57.63" y2="12.723" width="0" layer="19" extent="1-1"/>
+<wire x1="58.261" y1="10.033" x2="57.63" y2="12.723" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="U$10" pad="32KOUT"/>
 <contactref element="Y2" pad="1"/>
-<wire x1="-50.26" y1="49.53" x2="57.23" y2="12.723" width="0" layer="19" extent="1-1"/>
+<wire x1="56.801" y1="10.033" x2="57.23" y2="12.723" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LORA_MISO">
 <contactref element="U3" pad="10P"/>
