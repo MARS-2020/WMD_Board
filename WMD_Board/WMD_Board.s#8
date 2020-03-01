@@ -6370,6 +6370,11 @@ Metric Code Size 2012</description>
 <pinref part="U$32" gate="G$1" pin="GND"/>
 <wire x1="370.84" y1="199.39" x2="370.84" y2="196.85" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="199.39" x2="370.84" y2="199.39" width="0.1524" layer="91"/>
+<pinref part="C25" gate="G$1" pin="2"/>
+<wire x1="358.14" y1="200.66" x2="358.14" y2="199.39" width="0.1524" layer="91"/>
+<pinref part="C19" gate="G$1" pin="2"/>
+<wire x1="370.84" y1="200.66" x2="370.84" y2="199.39" width="0.1524" layer="91"/>
+<junction x="370.84" y="199.39"/>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="GND"/>
@@ -6403,6 +6408,11 @@ Metric Code Size 2012</description>
 <pinref part="U$39" gate="G$1" pin="GND"/>
 <wire x1="181.61" y1="191.77" x2="181.61" y2="187.96" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$34" gate="G$1" pin="GND"/>
+<pinref part="C29" gate="G$1" pin="2"/>
+<wire x1="273.05" y1="185.42" x2="273.05" y2="196.85" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -6425,9 +6435,9 @@ Metric Code Size 2012</description>
 <pinref part="U$22" gate="G$1" pin="VOUT"/>
 <wire x1="337.82" y1="212.09" x2="342.9" y2="212.09" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="212.09" x2="358.14" y2="212.09" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="212.09" x2="358.14" y2="209.55" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="212.09" x2="358.14" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="212.09" x2="370.84" y2="212.09" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="212.09" x2="370.84" y2="209.55" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="212.09" x2="370.84" y2="208.28" width="0.1524" layer="91"/>
 <junction x="358.14" y="212.09"/>
 <pinref part="U$22" gate="G$1" pin="FB"/>
 <wire x1="337.82" y1="199.39" x2="342.9" y2="199.39" width="0.1524" layer="91"/>
@@ -6436,6 +6446,8 @@ Metric Code Size 2012</description>
 <pinref part="SUPPLY19" gate="G$1" pin="3.3V"/>
 <wire x1="370.84" y1="212.09" x2="370.84" y2="219.71" width="0.1524" layer="91"/>
 <junction x="370.84" y="212.09"/>
+<pinref part="C25" gate="G$1" pin="1"/>
+<pinref part="C19" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="1.8V" class="0">
@@ -6476,10 +6488,11 @@ Metric Code Size 2012</description>
 <wire x1="289.56" y1="212.09" x2="273.05" y2="212.09" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="209.55" x2="289.56" y2="212.09" width="0.1524" layer="91"/>
 <junction x="289.56" y="212.09"/>
-<wire x1="273.05" y1="207.01" x2="273.05" y2="212.09" width="0.1524" layer="91"/>
+<wire x1="273.05" y1="207.01" x2="273.05" y2="208.28" width="0.1524" layer="91"/>
 <junction x="273.05" y="212.09"/>
 <pinref part="Q2" gate="G$1" pin="D"/>
 <pinref part="C28" gate="G$1" pin="1"/>
+<wire x1="273.05" y1="208.28" x2="273.05" y2="212.09" width="0.1524" layer="91"/>
 <wire x1="189.23" y1="212.09" x2="204.47" y2="212.09" width="0.1524" layer="91"/>
 <wire x1="204.47" y1="212.09" x2="204.47" y2="209.55" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="2"/>
@@ -6488,6 +6501,8 @@ Metric Code Size 2012</description>
 <junction x="204.47" y="212.09"/>
 <wire x1="224.79" y1="212.09" x2="273.05" y2="212.09" width="0.1524" layer="91"/>
 <junction x="224.79" y="212.09"/>
+<pinref part="C29" gate="G$1" pin="1"/>
+<wire x1="273.05" y1="204.47" x2="273.05" y2="207.01" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">

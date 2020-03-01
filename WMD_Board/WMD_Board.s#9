@@ -6176,14 +6176,11 @@ Metric Code Size 2012</description>
 <part name="U$23" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$30" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$31" library="microbuilder" deviceset="GND" device=""/>
-<part name="C19" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
-<part name="C24" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="U$32" library="microbuilder" deviceset="GND" device=""/>
 <part name="L1" library="microbuilder" deviceset="INDUCTOR" device="NRH2412T" value="2.2uH/NRH2412T2R2MNGH"/>
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="C25" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
-<part name="C26" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
+<part name="C26" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="0.1uF"/>
 <part name="U$33" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$34" library="microbuilder" deviceset="GND" device=""/>
 <part name="Q1" library="SI2323DS-T1-E3" deviceset="SI2323DS-T1-E3" device=""/>
@@ -6205,6 +6202,9 @@ Metric Code Size 2012</description>
 <part name="U$39" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$40" library="Battery_Hole" deviceset="BATTERY_HOLE" device=""/>
 <part name="U$41" library="Battery_Hole" deviceset="BATTERY_HOLE" device=""/>
+<part name="C29" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10uF"/>
+<part name="C25" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10uF"/>
+<part name="C19" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -6258,14 +6258,6 @@ Metric Code Size 2012</description>
 <instance part="U$31" gate="G$1" x="300.99" y="186.69" smashed="yes">
 <attribute name="VALUE" x="299.466" y="184.15" size="1.27" layer="96"/>
 </instance>
-<instance part="C19" gate="G$1" x="370.84" y="204.47" smashed="yes">
-<attribute name="NAME" x="372.364" y="207.391" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="372.364" y="202.311" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="C24" gate="G$1" x="358.14" y="204.47" smashed="yes">
-<attribute name="NAME" x="359.664" y="207.391" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="359.664" y="202.311" size="1.778" layer="96" font="vector"/>
-</instance>
 <instance part="U$32" gate="G$1" x="370.84" y="194.31" smashed="yes">
 <attribute name="VALUE" x="369.316" y="191.77" size="1.27" layer="96"/>
 </instance>
@@ -6274,10 +6266,6 @@ Metric Code Size 2012</description>
 </instance>
 <instance part="SUPPLY19" gate="G$1" x="370.84" y="219.71" smashed="yes">
 <attribute name="VALUE" x="370.84" y="222.504" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="C25" gate="G$1" x="273.05" y="201.93" smashed="yes">
-<attribute name="NAME" x="274.574" y="204.851" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="274.574" y="199.771" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="R16" gate="G$1" x="289.56" y="204.47" smashed="yes" rot="R90">
 <attribute name="NAME" x="288.036" y="204.47" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -6341,6 +6329,18 @@ Metric Code Size 2012</description>
 </instance>
 <instance part="U$40" gate="G$1" x="64.77" y="212.09" smashed="yes"/>
 <instance part="U$41" gate="G$1" x="64.77" y="193.04" smashed="yes"/>
+<instance part="C29" gate="G$1" x="273.05" y="199.39" smashed="yes">
+<attribute name="NAME" x="270.76" y="200.64" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="275.35" y="200.64" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
+</instance>
+<instance part="C25" gate="G$1" x="358.14" y="203.2" smashed="yes">
+<attribute name="NAME" x="355.85" y="204.45" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="360.44" y="204.45" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
+</instance>
+<instance part="C19" gate="G$1" x="370.84" y="203.2" smashed="yes">
+<attribute name="NAME" x="368.55" y="204.45" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="373.14" y="204.45" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6367,14 +6367,9 @@ Metric Code Size 2012</description>
 <pinref part="U$23" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C19" gate="G$1" pin="2"/>
 <pinref part="U$32" gate="G$1" pin="GND"/>
-<wire x1="370.84" y1="201.93" x2="370.84" y2="199.39" width="0.1524" layer="91"/>
-<pinref part="C24" gate="G$1" pin="2"/>
 <wire x1="370.84" y1="199.39" x2="370.84" y2="196.85" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="201.93" x2="358.14" y2="199.39" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="199.39" x2="370.84" y2="199.39" width="0.1524" layer="91"/>
-<junction x="370.84" y="199.39"/>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="GND"/>
@@ -6392,11 +6387,6 @@ Metric Code Size 2012</description>
 <pinref part="C26" gate="G$1" pin="2"/>
 <pinref part="U$33" gate="G$1" pin="GND"/>
 <wire x1="289.56" y1="189.23" x2="289.56" y2="185.42" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$34" gate="G$1" pin="GND"/>
-<pinref part="C25" gate="G$1" pin="2"/>
-<wire x1="273.05" y1="185.42" x2="273.05" y2="199.39" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
@@ -6433,11 +6423,9 @@ Metric Code Size 2012</description>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="VOUT"/>
-<pinref part="C24" gate="G$1" pin="1"/>
 <wire x1="337.82" y1="212.09" x2="342.9" y2="212.09" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="212.09" x2="358.14" y2="212.09" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="212.09" x2="358.14" y2="209.55" width="0.1524" layer="91"/>
-<pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="358.14" y1="212.09" x2="370.84" y2="212.09" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="212.09" x2="370.84" y2="209.55" width="0.1524" layer="91"/>
 <junction x="358.14" y="212.09"/>
@@ -6488,7 +6476,6 @@ Metric Code Size 2012</description>
 <wire x1="289.56" y1="212.09" x2="273.05" y2="212.09" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="209.55" x2="289.56" y2="212.09" width="0.1524" layer="91"/>
 <junction x="289.56" y="212.09"/>
-<pinref part="C25" gate="G$1" pin="1"/>
 <wire x1="273.05" y1="207.01" x2="273.05" y2="212.09" width="0.1524" layer="91"/>
 <junction x="273.05" y="212.09"/>
 <pinref part="Q2" gate="G$1" pin="D"/>

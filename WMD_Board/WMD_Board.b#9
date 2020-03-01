@@ -2005,6 +2005,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C18" pad="1"/>
 <contactref element="U6" pad="5"/>
 <contactref element="C20" pad="1"/>
+<contactref element="J2" pad="1"/>
 <wire x1="64.018" y1="74.8514" x2="63.618" y2="77.7514" width="0" layer="19" extent="1-1"/>
 <wire x1="46.521" y1="68.961" x2="64.018" y2="74.8514" width="0" layer="19" extent="1-1"/>
 <wire x1="19.851" y1="68.961" x2="46.521" y2="68.961" width="0" layer="19" extent="1-1"/>
@@ -2014,6 +2015,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="42.2694" y1="21.9338" x2="43.961" y2="24.035" width="0" layer="19" extent="1-1"/>
 <wire x1="41.7458" y1="9.9522" x2="42.2694" y2="21.9338" width="0" layer="19" extent="1-1"/>
 <wire x1="37.611" y1="9.871" x2="41.7458" y2="9.9522" width="0" layer="19" extent="1-1"/>
+<wire x1="70.2564" y1="13.1972" x2="43.961" y2="24.035" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL_HR_1.8V">
 <contactref element="U4" pad="2"/>
@@ -2114,6 +2116,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="INT">
 <contactref element="U$10" pad="HR_INT"/>
+<contactref element="J2" pad="2"/>
+<wire x1="70.2564" y1="14.1972" x2="65.068" y2="77.1014" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="U$10" pad="VCORE"/>
@@ -2378,12 +2382,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="19.519" y1="37.592" x2="19.519" y2="35.791" width="0.4064" layer="1"/>
 <wire x1="19.519" y1="35.791" x2="19.288" y2="35.56" width="0.4064" layer="1"/>
 <wire x1="19.519" y1="35.791" x2="33.365" y2="24.881" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$17">
-<contactref element="J2" pad="2"/>
-</signal>
-<signal name="N$18">
-<contactref element="J2" pad="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

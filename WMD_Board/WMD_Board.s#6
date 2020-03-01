@@ -7397,9 +7397,9 @@ Metric Code Size 2012</description>
 </net>
 <net name="WC_EEPROM" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB9"/>
-<wire x1="121.92" y1="208.28" x2="129.54" y2="208.28" width="0.1524" layer="91"/>
-<label x="124.46" y="208.28" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="PB2"/>
+<wire x1="121.92" y1="190.5" x2="139.7" y2="190.5" width="0.1524" layer="91"/>
+<label x="124.46" y="190.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPS_RX" class="0">

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1785,8 +1785,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C4" pad="2"/>
 <contactref element="C5" pad="2"/>
 <polygon width="0.1524" layer="16" rank="4">
-<vertex x="46.482" y="43.688"/>
-<vertex x="46.482" y="26.924"/>
+<vertex x="45.212" y="43.688"/>
+<vertex x="45.212" y="26.924"/>
 <vertex x="65.659" y="26.924"/>
 <vertex x="65.659" y="24.384"/>
 <vertex x="72.009" y="24.384"/>
@@ -1795,8 +1795,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="65.659" y="43.688"/>
 </polygon>
 <polygon width="0.1524" layer="1" rank="4">
-<vertex x="46.482" y="43.688"/>
-<vertex x="46.482" y="26.924"/>
+<vertex x="45.212" y="43.688"/>
+<vertex x="45.212" y="26.924"/>
 <vertex x="65.659" y="26.924"/>
 <vertex x="65.659" y="24.384"/>
 <vertex x="72.009" y="24.384"/>
@@ -1806,8 +1806,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 <polygon width="0.1524" layer="1" rank="4">
 <vertex x="0" y="32.131"/>
-<vertex x="45.466" y="32.131"/>
-<vertex x="45.466" y="25.908"/>
+<vertex x="44.196" y="32.131"/>
+<vertex x="44.196" y="25.908"/>
 <vertex x="64.643" y="25.908"/>
 <vertex x="64.643" y="23.368"/>
 <vertex x="65.659" y="23.368"/>
@@ -1829,8 +1829,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="65.659" y="23.368"/>
 <vertex x="64.643" y="23.368"/>
 <vertex x="64.643" y="25.908"/>
-<vertex x="45.466" y="25.908"/>
-<vertex x="45.466" y="32.131"/>
+<vertex x="44.196" y="25.908"/>
+<vertex x="44.196" y="32.131"/>
 </polygon>
 <wire x1="81.788" y1="51.9294" x2="114.261" y2="74.168" width="0" layer="19" extent="1-16"/>
 <wire x1="79.1972" y1="50.0634" x2="81.788" y2="51.9294" width="0" layer="19" extent="16-16"/>

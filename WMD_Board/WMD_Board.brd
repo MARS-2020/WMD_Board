@@ -1329,7 +1329,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value="CAP-00868" x="39.751" y="68.961" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="39.751" y="68.199" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C14" library="SparkFun-Capacitors" package="0603" value="1.0uF" x="35.941" y="68.961" smashed="yes">
+<element name="C14" library="SparkFun-Capacitors" package="0603" value="100nF" x="35.941" y="68.961" smashed="yes">
 <attribute name="NAME" x="35.941" y="69.723" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00868" x="35.941" y="68.961" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="35.941" y="68.199" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
@@ -1439,7 +1439,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value="RES-07856" x="13.081" y="68.961" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="13.081" y="68.199" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R3" library="SparkFun-Resistors" package="0603" value="100k" x="9.271" y="68.961" smashed="yes">
+<element name="R3" library="SparkFun-Resistors" package="0603" value="10" x="9.271" y="68.961" smashed="yes">
 <attribute name="NAME" x="9.271" y="69.723" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07828" x="9.271" y="68.961" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="9.271" y="68.199" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
