@@ -1472,7 +1472,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESCRIPTION" value=" EEPROM Memory IC 512Kb _64K x 8_ I²C 1MHz 450ns 8-SO " x="3.556" y="14.478" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="STMicroelectronics" x="3.556" y="14.478" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="M24512-DRMN8TP/K" x="3.556" y="14.478" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="0.869" y="10.558" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="7.473" y="14.368" size="1.27" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="SOIC-8 STMicroelectronics" x="3.556" y="14.478" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="3.556" y="14.478" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -1806,8 +1806,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="45.339" y="22.606" extent="1-16" drill="0.35"/>
 <via x="45.339" y="21.209" extent="1-16" drill="0.35"/>
 <via x="45.339" y="19.812" extent="1-16" drill="0.35"/>
-<via x="66.675" y="29.337" extent="1-16" drill="0.35"/>
-<via x="66.675" y="26.543" extent="1-16" drill="0.35"/>
+<via x="66.675" y="29.845" extent="1-16" drill="0.35"/>
+<via x="66.675" y="26.289" extent="1-16" drill="0.35"/>
 <via x="52.07" y="34.29" extent="1-16" drill="0.35"/>
 <via x="55.88" y="30.48" extent="1-16" drill="0.35"/>
 <via x="59.69" y="34.29" extent="1-16" drill="0.35"/>

@@ -5588,20 +5588,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="347.98" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BTN4_OUT" class="0">
-<segment>
-<pinref part="U$20" gate="G$1" pin="P$8"/>
-<wire x1="337.82" y1="215.9" x2="353.06" y2="215.9" width="0.1524" layer="91"/>
-<label x="347.98" y="215.9" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BTN4" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PA3"/>
-<wire x1="76.2" y1="215.9" x2="58.42" y2="215.9" width="0.1524" layer="91"/>
-<label x="58.42" y="215.9" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="BTN3" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>

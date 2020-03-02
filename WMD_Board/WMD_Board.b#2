@@ -174,7 +174,6 @@
 <hole x="41.402" y="4.572" drill="1.27"/>
 <hole x="2.032" y="26.797" drill="1.27"/>
 <text x="15.24" y="29.718" size="1.524" layer="21">MARS WMD_Board v1</text>
-<text x="16.256" y="42.164" size="1.016" layer="21">Jacob Bobson</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">

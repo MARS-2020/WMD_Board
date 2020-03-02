@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -26,7 +26,7 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -1828,7 +1828,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="52.07" y="2.794" extent="1-16" drill="0.35"/>
 <via x="55.626" y="6.096" extent="1-16" drill="0.35"/>
 <via x="59.182" y="2.794" extent="1-16" drill="0.35"/>
-<via x="25.908" y="21.336" extent="1-16" drill="0.35"/>
+<via x="26.67" y="20.066" extent="1-16" drill="0.35"/>
 <via x="29.972" y="19.304" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="3.3V">
@@ -2419,8 +2419,21 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="HR_MFIO">
 <contactref element="U$10" pad="MFIO@1"/>
-<contactref element="U1" pad="38"/>
-<wire x1="17.308" y1="18.807" x2="52.262" y2="23.0184" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="4"/>
+<wire x1="23.738" y1="21.737" x2="26.015" y2="21.737" width="0.2032" layer="1"/>
+<wire x1="26.015" y1="21.737" x2="27.178" y2="20.574" width="0.2032" layer="1"/>
+<wire x1="27.178" y1="20.574" x2="29.718" y2="20.574" width="0.2032" layer="1"/>
+<via x="29.718" y="20.574" extent="1-16" drill="0.35"/>
+<wire x1="29.718" y1="20.574" x2="31.242" y2="20.574" width="0.2032" layer="16"/>
+<via x="46.101" y="23.749" extent="1-16" drill="0.35"/>
+<wire x1="46.101" y1="23.749" x2="50.673" y2="23.749" width="0.2032" layer="1"/>
+<wire x1="50.673" y1="23.749" x2="51.435" y2="22.987" width="0.2032" layer="1"/>
+<wire x1="51.435" y1="22.987" x2="52.2306" y2="22.987" width="0.2032" layer="1"/>
+<wire x1="52.2306" y1="22.987" x2="52.262" y2="23.0184" width="0.2032" layer="1"/>
+<wire x1="31.242" y1="20.574" x2="32.004" y2="21.336" width="0.2032" layer="16"/>
+<wire x1="32.004" y1="21.336" x2="35.814" y2="21.336" width="0.2032" layer="16"/>
+<wire x1="35.814" y1="21.336" x2="38.227" y2="23.749" width="0.2032" layer="16"/>
+<wire x1="38.227" y1="23.749" x2="46.101" y2="23.749" width="0.2032" layer="16"/>
 </signal>
 <signal name="N$10">
 <contactref element="Y2" pad="2"/>

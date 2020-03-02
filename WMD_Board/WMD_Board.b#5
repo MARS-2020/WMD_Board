@@ -173,6 +173,7 @@
 <hole x="41.402" y="41.91" drill="1.27"/>
 <hole x="41.402" y="4.572" drill="1.27"/>
 <hole x="2.032" y="26.797" drill="1.27"/>
+<text x="15.24" y="29.718" size="1.524" layer="21">MARS WMD_Board v1</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -1813,9 +1814,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="55.626" y="40.386" extent="1-16" drill="0.35"/>
 <via x="45.593" y="14.732" extent="1-16" drill="0.35"/>
 <via x="54.991" y="17.145" extent="1-16" drill="0.35"/>
-<via x="1.524" y="30.734" extent="1-16" drill="0.35"/>
-<via x="8.382" y="30.988" extent="1-16" drill="0.35"/>
-<via x="15.494" y="30.988" extent="1-16" drill="0.35"/>
+<via x="1.524" y="30.988" extent="1-16" drill="0.35"/>
+<via x="7.62" y="30.988" extent="1-16" drill="0.35"/>
+<via x="11.938" y="30.988" extent="1-16" drill="0.35"/>
 <via x="2.794" y="23.114" extent="1-16" drill="0.35"/>
 <via x="7.112" y="23.114" extent="1-16" drill="0.35"/>
 <via x="8.128" y="17.78" extent="1-16" drill="0.35"/>
@@ -1827,6 +1828,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="52.07" y="2.794" extent="1-16" drill="0.35"/>
 <via x="55.626" y="6.096" extent="1-16" drill="0.35"/>
 <via x="59.182" y="2.794" extent="1-16" drill="0.35"/>
+<via x="25.908" y="21.336" extent="1-16" drill="0.35"/>
+<via x="29.972" y="19.304" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="3.3V">
 <contactref element="SV2" pad="5"/>
