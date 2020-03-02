@@ -2272,9 +2272,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="BTN2">
 <contactref element="R11" pad="1"/>
 <contactref element="C3" pad="1"/>
-<contactref element="U1" pad="11"/>
 <wire x1="7.747" y1="9.74" x2="9.271" y2="9.74" width="0.2032" layer="16"/>
-<wire x1="9.271" y1="9.74" x2="23.738" y2="25.237" width="0" layer="19" extent="1-16"/>
+<contactref element="U1" pad="46"/>
+<wire x1="9.271" y1="9.74" x2="21.308" y2="18.807" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="BTN3_OUT">
 <contactref element="R12" pad="1"/>
@@ -2287,13 +2287,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="BTN3">
 <contactref element="R13" pad="1"/>
 <contactref element="C4" pad="1"/>
-<contactref element="U1" pad="12"/>
 <wire x1="1.436" y1="4.953" x2="1.436" y2="5.627" width="0.2032" layer="16"/>
 <wire x1="1.436" y1="5.627" x2="1.651" y2="5.842" width="0.2032" layer="16"/>
 <wire x1="2.921" y1="5.842" x2="3.175" y2="6.096" width="0.2032" layer="16"/>
 <wire x1="3.175" y1="6.096" x2="3.175" y2="6.692" width="0.2032" layer="16"/>
 <wire x1="1.651" y1="5.842" x2="2.921" y2="5.842" width="0.2032" layer="16"/>
-<wire x1="3.136" y1="6.731" x2="23.738" y2="25.737" width="0" layer="19" extent="1-16"/>
 <wire x1="3.175" y1="6.692" x2="3.136" y2="6.731" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$8">
@@ -2723,6 +2721,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="19.519" y1="37.592" x2="19.519" y2="35.791" width="0.4064" layer="1"/>
 <wire x1="19.519" y1="35.791" x2="19.288" y2="35.56" width="0.4064" layer="1"/>
 <wire x1="23.738" y1="20.737" x2="19.288" y2="35.56" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BNT3">
+<contactref element="U1" pad="45"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
