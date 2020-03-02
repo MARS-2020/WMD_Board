@@ -5566,11 +5566,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="327.66" y="152.4"/>
 <label x="332.74" y="152.4" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="PA1"/>
-<wire x1="76.2" y1="220.98" x2="58.42" y2="220.98" width="0.1524" layer="91"/>
-<label x="58.42" y="220.98" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="BTN3_OUT" class="0">
 <segment>
@@ -5599,9 +5594,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="312.42" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PA2"/>
-<wire x1="76.2" y1="218.44" x2="58.42" y2="218.44" width="0.1524" layer="91"/>
-<label x="58.42" y="218.44" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="PB9"/>
+<wire x1="121.92" y1="208.28" x2="134.62" y2="208.28" width="0.1524" layer="91"/>
+<label x="129.54" y="208.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LORA_DIO5" class="0">
@@ -5765,6 +5760,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U1" gate="G$1" pin="PA15"/>
 <wire x1="76.2" y1="185.42" x2="60.96" y2="185.42" width="0.1524" layer="91"/>
 <label x="58.42" y="185.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BNT2" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PB8"/>
+<wire x1="121.92" y1="205.74" x2="134.62" y2="205.74" width="0.1524" layer="91"/>
+<label x="129.54" y="205.74" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

@@ -5762,9 +5762,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="HR_MFIO" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PA15"/>
-<wire x1="76.2" y1="185.42" x2="60.96" y2="185.42" width="0.1524" layer="91"/>
-<label x="58.42" y="185.42" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="PC15-OSC32_OUT"/>
+<wire x1="121.92" y1="182.88" x2="139.7" y2="182.88" width="0.1524" layer="91"/>
+<label x="129.54" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
