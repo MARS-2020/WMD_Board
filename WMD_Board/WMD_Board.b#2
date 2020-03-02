@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -26,7 +26,7 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -173,6 +173,8 @@
 <hole x="41.402" y="41.91" drill="1.27"/>
 <hole x="41.402" y="4.572" drill="1.27"/>
 <hole x="2.032" y="26.797" drill="1.27"/>
+<text x="15.24" y="29.718" size="1.524" layer="21">MARS WMD_Board v1</text>
+<text x="16.256" y="42.164" size="1.016" layer="21">Jacob Bobson</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -1471,7 +1473,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESCRIPTION" value=" EEPROM Memory IC 512Kb _64K x 8_ I²C 1MHz 450ns 8-SO " x="3.556" y="14.478" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="STMicroelectronics" x="3.556" y="14.478" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="M24512-DRMN8TP/K" x="3.556" y="14.478" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="0.869" y="10.558" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="7.473" y="14.368" size="1.27" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="SOIC-8 STMicroelectronics" x="3.556" y="14.478" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="3.556" y="14.478" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -1805,14 +1807,30 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="45.339" y="22.606" extent="1-16" drill="0.35"/>
 <via x="45.339" y="21.209" extent="1-16" drill="0.35"/>
 <via x="45.339" y="19.812" extent="1-16" drill="0.35"/>
-<via x="66.675" y="29.337" extent="1-16" drill="0.35"/>
-<via x="66.675" y="26.543" extent="1-16" drill="0.35"/>
+<via x="66.675" y="29.845" extent="1-16" drill="0.35"/>
+<via x="66.675" y="26.289" extent="1-16" drill="0.35"/>
 <via x="52.07" y="34.29" extent="1-16" drill="0.35"/>
 <via x="55.88" y="30.48" extent="1-16" drill="0.35"/>
 <via x="59.69" y="34.29" extent="1-16" drill="0.35"/>
-<via x="55.88" y="40.64" extent="1-16" drill="0.35"/>
+<via x="55.626" y="40.386" extent="1-16" drill="0.35"/>
 <via x="45.593" y="14.732" extent="1-16" drill="0.35"/>
 <via x="54.991" y="17.145" extent="1-16" drill="0.35"/>
+<via x="1.524" y="30.988" extent="1-16" drill="0.35"/>
+<via x="7.62" y="30.988" extent="1-16" drill="0.35"/>
+<via x="11.938" y="30.988" extent="1-16" drill="0.35"/>
+<via x="2.794" y="23.114" extent="1-16" drill="0.35"/>
+<via x="7.112" y="23.114" extent="1-16" drill="0.35"/>
+<via x="8.128" y="17.78" extent="1-16" drill="0.35"/>
+<via x="8.89" y="12.446" extent="1-16" drill="0.35"/>
+<via x="20.828" y="10.922" extent="1-16" drill="0.35"/>
+<via x="25.4" y="10.922" extent="1-16" drill="0.35"/>
+<via x="30.226" y="10.922" extent="1-16" drill="0.35"/>
+<via x="34.544" y="10.922" extent="1-16" drill="0.35"/>
+<via x="52.07" y="2.794" extent="1-16" drill="0.35"/>
+<via x="55.626" y="6.096" extent="1-16" drill="0.35"/>
+<via x="59.182" y="2.794" extent="1-16" drill="0.35"/>
+<via x="25.908" y="21.336" extent="1-16" drill="0.35"/>
+<via x="29.972" y="19.304" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="3.3V">
 <contactref element="SV2" pad="5"/>
