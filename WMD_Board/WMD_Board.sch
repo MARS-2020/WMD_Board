@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6688,8 +6688,8 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY25" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="U$28" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$29" library="microbuilder" deviceset="GND" device=""/>
-<part name="R1" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
-<part name="R18" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="4.7k"/>
+<part name="R18" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 <part name="SUPPLY26" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY27" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="U6" library="TPS72218DBVR_LDO" deviceset="TPS72218DBVR" device=""/>
@@ -6714,14 +6714,14 @@ Source: www.kingbright.com</description>
 <part name="Q1" library="SI2323DS-T1-E3" deviceset="SI2323DS-T1-E3" device=""/>
 <part name="U$35" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$5" library="microbuilder" deviceset="GND" device=""/>
-<part name="R7" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
-<part name="R8" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="100k"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="U$36" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$38" library="TS4148_RY" deviceset="TS4148C_RZG" device=""/>
-<part name="R17" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
-<part name="R19" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
-<part name="R20" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
-<part name="R21" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
+<part name="R17" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="10k"/>
+<part name="R19" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="100k"/>
+<part name="R20" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="100k"/>
+<part name="R21" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="300k"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="C27" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="C28" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10uF"/>
@@ -6743,6 +6743,7 @@ Source: www.kingbright.com</description>
 </part>
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k"/>
 <part name="U$1" library="microbuilder" deviceset="GND" device=""/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -7386,6 +7387,10 @@ Source: www.kingbright.com</description>
 <instance part="U$1" gate="G$1" x="63.5" y="149.86" smashed="yes">
 <attribute name="VALUE" x="61.976" y="147.32" size="1.27" layer="96"/>
 </instance>
+<instance part="C5" gate="G$1" x="38.1" y="213.36" smashed="yes">
+<attribute name="NAME" x="39.624" y="216.281" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="39.624" y="211.201" size="1.778" layer="96" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7465,7 +7470,12 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="U$36" gate="G$1" pin="GND"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="29.21" y1="207.01" x2="29.21" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="29.21" y1="207.01" x2="29.21" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="29.21" y1="208.28" x2="29.21" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="210.82" x2="38.1" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="208.28" x2="29.21" y2="208.28" width="0.1524" layer="91"/>
+<junction x="29.21" y="208.28"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="6"/>
@@ -7907,12 +7917,16 @@ Source: www.kingbright.com</description>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA0"/>
-<wire x1="76.2" y1="223.52" x2="29.21" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="223.52" x2="38.1" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="223.52" x2="29.21" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="29.21" y1="223.52" x2="29.21" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="29.21" y1="226.06" x2="29.21" y2="223.52" width="0.1524" layer="91"/>
 <junction x="29.21" y="223.52"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="218.44" x2="38.1" y2="223.52" width="0.1524" layer="91"/>
+<junction x="38.1" y="223.52"/>
 </segment>
 </net>
 <net name="MEASURE" class="0">
